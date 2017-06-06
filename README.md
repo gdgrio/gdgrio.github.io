@@ -5,8 +5,8 @@
 
 ## O GDG RJ e seus Projetos
 
-### [GDG Caxias](http://gdgduquedecaxias.org/)
-  O Google Developers Group Duque de Caxias é um grupo aberto para desenvolvedores entusiastas. Nosso objetivo é pesquisar e disseminar conhecimento a respeito de tecnolgias modernas e principalmente de tecnologias Google como Android, HTML5, AngularJS, APIs e outros.
+### [GDG Rio]
+  O Google Developers Group Rio é um grupo aberto para desenvolvedores entusiastas. Nosso objetivo é pesquisar e disseminar conhecimento a respeito de tecnolgias modernas e principalmente de tecnologias Google como Android, HTML5, AngularJS, APIs e outros.
 
 
 ### [Women Techmakers](https://wtmrio.github.io/evento/)
