@@ -1,12 +1,11 @@
 ## Calendário Geral:
 
-
-
+Em breve.
 
 ## O GDG RJ e seus Projetos
 
-### [GDG Rio]
-  O Google Developers Group Rio é um grupo aberto para desenvolvedores entusiastas. Nosso objetivo é pesquisar e disseminar conhecimento a respeito de tecnolgias modernas e principalmente de tecnologias Google como Android, HTML5, AngularJS, APIs e outros.
+### [GDG Caxias](http://gdgduquedecaxias.org/)
+  O Google Developers Group Duque de Caxias é um grupo aberto para desenvolvedores entusiastas. Nosso objetivo é pesquisar e disseminar conhecimento a respeito de tecnolgias modernas e principalmente de tecnologias Google como Android, HTML5, AngularJS, APIs e outros.
 
 
 ### [Women Techmakers](https://wtmrio.github.io/evento/)
@@ -21,4 +20,3 @@
 [![facebook](http://icon-icons.com/icons2/478/PNG/72/facebook_47004.png)](https://www.facebook.com/GDGRio/)
 [![flickr](http://icon-icons.com/icons2/285/PNG/72/social_flickr_button_256_30645.png)](https://www.flickr.com/photos/145156315@N06/)
 [![meetup](http://icon-icons.com/icons2/1121/PNG/72/1486147209-social-media-circled-network08_79495.png)](https://www.meetup.com/pt-BR/Google-Developer-Group-GDG-Rio-de-Janeiro/)
-
