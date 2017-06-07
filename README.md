@@ -2,7 +2,7 @@
 
 Em breve.
 
-## Outras comunidades do Google Group Developers no estado do Rio de Janeiro
+## Outras comunidades do Google Developers Group no estado do Rio de Janeiro
 
 ### [GDG Caxias](http://gdgduquedecaxias.org/)
   O Google Developers Group Duque de Caxias é um grupo aberto para desenvolvedores entusiastas. Nosso objetivo é pesquisar e disseminar conhecimento a respeito de tecnolgias modernas e principalmente de tecnologias Google como Android, HTML5, AngularJS, APIs e outros.
