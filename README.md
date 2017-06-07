@@ -2,11 +2,10 @@
 
 Em breve.
 
-## O GDG RJ e seus Projetos
+## Outras comunidaddes do Google Group Developers no estado do Rio de Janeiro
 
 ### [GDG Caxias](http://gdgduquedecaxias.org/)
   O Google Developers Group Duque de Caxias é um grupo aberto para desenvolvedores entusiastas. Nosso objetivo é pesquisar e disseminar conhecimento a respeito de tecnolgias modernas e principalmente de tecnologias Google como Android, HTML5, AngularJS, APIs e outros.
-
 
 ### [Women Techmakers](https://wtmrio.github.io/evento/)
   O Google empenha-se em desenvolver um ambiente de trabalho inclusivo no mundo todo. Com esse objetivo, o Women Techmakers foi criado para incentivar e apoiar qualquer pessoa cis, trans, binária ou não-binária que se identifique com o gênero feminino, perseguirem seus sonhos e se melhorarem como profissionais em um espaço seguro e profissional. O Women Techmakers Rio de Janeiro é uma comunidade independente, dentro do GDG Rio de Janeiro.
