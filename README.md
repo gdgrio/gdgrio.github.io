@@ -1,6 +1,16 @@
+## O que somos
 
+ O GDG (Google Developer Group) Rio de Janeiro é um grupo de desenvolvedores entusiastas dos produtos Google. Nós amamos o que fazemos e estamos sempre querendo aprender mais. Mantenha-se conectado para participar dos eventos e fazer parte do grupo!
 
-## [Women Techmakers](gdgrio.github.io/wtm)
+## Quero Palestrar
+
+Estamos sempre em busca de novos palestrantes, para submeter uma palestra basta seguir as instruções dispostas no nosso **[repositório](https://github.com/gdgrio/quero-palestrar)**.
+
+###### Agredecemos ao [PHP São Paulo](https://github.com/phpsp) pelo o modelo que estamos utilizando.
+
+## Iniciativas
+
+### **[Women Techmakers](gdgrio.github.io/wtm)**
   O Google empenha-se em desenvolver um ambiente de trabalho inclusivo no mundo todo. Com esse objetivo, o Women Techmakers foi criado para incentivar e apoiar qualquer pessoa cis, trans, binária ou não-binária que se identifique com o gênero feminino, perseguirem seus sonhos e se melhorarem como profissionais em um espaço seguro e profissional. O Women Techmakers Rio de Janeiro é uma comunidade independente, dentro do GDG Rio de Janeiro.  
 
 ## Fique conosco.
