@@ -1,24 +1,122 @@
-## O que somos
+# Project Zeppelin / GDG DevFest 2014 site template
 
- O GDG (Google Developer Group) Rio de Janeiro é um grupo de desenvolvedores entusiastas dos produtos Google. Nós amamos o que fazemos e estamos sempre querendo aprender mais. Mantenha-se conectado para participar dos eventos e fazer parte do grupo!
+### About 
+Project Zeppelin allows you to setup awesome GDG DevFest site in 5 minutes. 
 
-## Quero Palestrar
+Project is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/).
 
-Estamos sempre em busca de novos palestrantes, para submeter uma palestra basta seguir as instruções dispostas no nosso **[repositório](https://github.com/gdgrio/quero-palestrar)**.
+Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 
-###### Agredecemos ao [PHP São Paulo](https://github.com/phpsp) pelo o modelo que estamos utilizando.
+### Live demo http://gdg-x.github.io/zeppelin/
 
-## Iniciativas
+#### Automated version with Grunt <https://github.com/gdg-x/zeppelin-grunt>
 
-### **[Women Techmakers](gdgrio.github.io/wtm)**
-  O Google empenha-se em desenvolver um ambiente de trabalho inclusivo no mundo todo. Com esse objetivo, o Women Techmakers foi criado para incentivar e apoiar qualquer pessoa cis, trans, binária ou não-binária que se identifique com o gênero feminino, perseguirem seus sonhos e se melhorarem como profissionais em um espaço seguro e profissional. O Women Techmakers Rio de Janeiro é uma comunidade independente, dentro do GDG Rio de Janeiro.  
+### Features
+* Easy to setup
+* Simple and responsive design
+* Integrated speakers and sessions management
+* SVG icons
+* SEO friendly
 
-## Fique conosco.
-[![twitter](http://icon-icons.com/icons2/478/PNG/72/Twitter_46983.png)](https://twitter.com/GDGRio)
-[![youtube](http://icon-icons.com/icons2/70/PNG/72/youtube_14198.png)](https://www.youtube.com/channel/UCRor3pBXIRAUf8RX3h5lV-A)
-[![email](http://icon-icons.com/icons2/72/PNG/72/email_14410.png)](mailto:rio.gdg@gmail.com)
-[![github](http://icon-icons.com/icons2/838/PNG/72/circle-github_icon-icons.com_66826.png)](https://github.com/gdgrio)
-[![facebook](http://icon-icons.com/icons2/478/PNG/72/facebook_47004.png)](https://www.facebook.com/GDGRio/)
-[![flickr](http://icon-icons.com/icons2/285/PNG/72/social_flickr_button_256_30645.png)](https://www.flickr.com/photos/145156315@N06/)
-[![meetup](http://icon-icons.com/icons2/1121/PNG/72/1486147209-social-media-circled-network08_79495.png)](https://www.meetup.com/pt-BR/Google-Developer-Group-GDG-Rio-de-Janeiro/)
-[![telegram](http://icon-icons.com/icons2/923/PNG/72/telegram_icon-icons.com_72055.png)](https://t.me/gdgrj)
+
+### Quick-start guide
+1. [Fork](https://github.com/gdg-x/zeppelin/fork) this repo
+2. Clone locally
+3. Update ```_config.yml``` 
+4. Select what content blocks do you need
+5. Push changes to ```gh-pages``` branch
+6. Enjoy your awesome DevFest site at ```http://[your github name].github.io/zeppelin/```
+
+Or watch project presentation from [GDG[x] Townhall meeting](http://www.youtube.com/watch?v=xYmhheoLjcI). Slides available [here](https://docs.google.com/presentation/d/19aM7yNl_orDaCNND5LpCY3fShb6PyMltnzYfKvV8R_8/edit?usp=sharing)
+
+
+## Local development
+
+Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
+To install all development dependencies install [Bundler](http://bundler.io/).
+```bash
+    gem install bundler
+``` 
+and run next command from root folder:
+
+```bash
+  bundle install
+```  
+
+To start Jekyll run:
+```bash
+    jekyll serve -w
+```
+Site will be available at http://127.0.0.1:4000/zeppelin/ or http://localhost:4000/zeppelin/ (on Windows)
+
+**NOTE:** in this mode all changes to html and data files will be automatically regenerated, but after changing ```_config.yml``` you have to restart server.
+
+### Sass(Compass) support
+**Note:** You need to install [Node.js](http://nodejs.org/download/)
+
+To watch changes of `.sass` files and compile it to the `.css` on a fly change property `safe: true` to `safe: false` in `_config.yml`.
+**Note: It works only on local machine, because GitHub runs Jekyll in `--save` [mode](https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides)**
+
+Learn more about Sass development from [documentation](https://github.com/gdg-x/zeppelin/wiki/Sass-development).
+
+
+### Resource optimizations (optional)
+
+You can optimize images and minify css and javascript automatically (for now only on Windows).
+But for Mac OS users available amazing tool - [imageoptim](https://imageoptim.com/). Thanks [@raphaelsavina](https://github.com/raphaelsavina) for link.
+Optimize all images by running this script from `/automation/images/` folder:
+```bash
+    all_image_optimization.bat -d -jtran -pout -pquant -optip -gsicle -svgo
+```
+
+To minify CSS and JS run `minify_js.bat` (for Windows) and `minify_js.sh` (for Linux and MacOS) from `/automation/minifying/` folder:
+```bash
+    minify_js.bat
+```
+
+Learn more about available optimization options from [documentation](https://github.com/gdg-x/zeppelin/wiki/Resources-optimizations).
+
+### Documentation
+Quick-start guide is not enough? Checkout [full documentation](https://github.com/gdg-x/zeppelin/wiki).
+
+### Used libraries
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [Animate.css](https://github.com/daneden/animate.css)
+* [Waves](https://github.com/publicis-indonesia/Waves)
+* [jquery.appear](https://github.com/bas2k/jquery.appear)
+* [jQuery countTo Plugin](https://github.com/mhuggins/jquery-countTo)
+* [Typed.js](https://github.com/mattboldt/typed.js)
+* [Sticky-kit](https://github.com/leafo/sticky-kit)
+
+### Who is using template?
+Going to use template? Go on! The only thing we ask - let us know at [*lviv@gdg.org.ua*](mailto:lviv@gdg.org.ua) so we can include you to this list, or make a pull request.
+
+| | | |
+|------|------|------|
+| [GDG DevFest Ukraine 2014](http://devfest.gdg.org.ua/) | [GDG DevFest Istanbul 2014](http://devfesttr.com/) | [GDG Bangalore Site](http://gdgbangalore.github.io/) |
+| [GDG DevFest Omsk 2014](http://gdg-devfest-omsk.org/) | [2014 南阳 GDG Devfest 大会](http://devfest.gdgny.org) | [DevFest Nordeste 2014](http://2014.devfestne.com.br/) |
+| [GDG DevFest The Netherlands](http://www.devfest.nl/) | [DevFest Centro-Oeste 2014](http://www.devfestcentrooeste.com.br/) | [Android DevFest Space Coast](http://gdg-space-coast.github.io/zeppelin/) |
+| [DevFest SP 2014](http://sp.devfest.com.br/) | [DevFest in Baroda](http://devfest.gdgbaroda.com/) | [GDG Hi Pic (France)](http://maximemularz.github.io/zeppelin/) |
+| [GDG DevFest Córdoba 2014](http://gdgcordoba.github.io/zeppelin/) | [GDG DevFest Düsseldorf 2014](http://www.gdg-dus.de/DevFest2014/) | [GDG Makerere DevFest 2014](http://gdgmakerere.github.io/) |
+| [GDG Dublin DevFest 2014](http://gdg-dublin.appspot.com/) | [GDG Busitema DevFest 2014](http://gdgbusitema.github.io/) | [DevFest Vienna 2014](http://www.devfest.at/) |
+| [Android Wear DevFest](http://devfest.gdgnorthjersey.com/wear2014/) | [GDG SLAU DevFest 2014](http://gdgslau.github.io/) | [Lima DevFest](http://limadevfest.com/) |
+| [GDG Korea DevFair 2014](http://devfair2014.gdg.kr/) | [GDG DevFest Kota Kinabalu 2014](http://devfest.gdgkk.info/) | [GDG DevFest Belgium](http://gdg-brussels.org/DevFest2014/) |
+| [DevFest Praha 2014](http://devfest.cz/) | [GDG DevFest Kosice](http://devfest.sk/) | [GDG DevFest Cagayan de Oro](http://devfest.gdgcdo.org/) |
+| [DevFest Birgunj](http://gdgbirgunj.github.io/DevFest2014/) | [GDG DevFest Poland](http://devfest.pl/) | [GDG DevFest Silicon Valley](http://devfest2014.gdgsv.com/) |
+| [DevFest Chennai 2014](http://devfest.gdgchennai.com/) | [GDG DevFest Bari](http://gdgbari.github.io/zeppelin/) | [GDG DevFest Ahmedabad](http://devfest.gdgahmedabad.com/) |
+| [GDG DevFest Sri Lanka](http://www.devfestlk.org/) | [GDG DevFest Tunis](http://devfest.gdgtunis.org/) | [GDG DevFest Kozhikode](http://devfest.gdgkozhikode.org/) | 
+| [GDG DevFest Argentina](http://devfest.gdg.com.ar/) | [GDG DevFest Bhubaneswar](http://devfest2014.gdgbbsr.com/) | [GDG DevFest Miage Gi](http://gdgmiagegilab.github.io/) | 
+| [GDG DevFest NORTE](http://norte.devfest.com.br/) | [GDG Devfest Nyeri 2014](http://devfest.gdgkimathiuniversity.com/) | [GDG DevFest Paris](http://devfest.gdgparis.com/) |
+| [GDG Akure](http://gdgakure.github.io/)|[MENAT GDG Summit 2014](http://summit.gdg-menat.com/)|[Women Techmakers Istanbul 2015](http://wtmistanbul.com) |
+| [GDG DevFest Mallorca](http://devfest.gdgmallorca.com/)| [Michigan GDG DevFest 2015](http://michigandevfest.com/) | [International Women's Day](http://iwd.gdgnorthjersey.com/womeninnovation/) |
+
+
+### Contributors
+* Design and web development: [Oleh Zasadnyy](https://github.com/ozasadnyy)
+* Idea: [Vitaliy Zasadnyy](https://github.com/zasadnyy)
+* Bug fixing and support: [Said Tahsin Dane](https://github.com/tasomaniac)
+
+### License
+Project is published under the [MIT license](https://github.com/gdg-x/zeppelin/blob/master/LICENSE.txt). Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
+
+
